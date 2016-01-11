@@ -2,16 +2,7 @@ import numpy as np
 import pandas as pd
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.base import clone
-from sklearn.cross_validation import train_test_split
 from sklearn.ensemble import AdaBoostClassifier
-from sklearn.ensemble import GradientBoostingClassifier
-import matplotlib.pyplot as plt
-from sklearn.grid_search import GridSearchCV
-from sklearn.ensemble.partial_dependence import plot_partial_dependence
-from sklearn.ensemble.partial_dependence import partial_dependence
-from mpl_toolkits.mplot3d import Axes3D
-
-
 
 
 class AdaBoostBinaryClassifier(object):
